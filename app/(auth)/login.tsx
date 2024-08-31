@@ -65,10 +65,6 @@ const Login = () => {
   return (
     <SafeAreaView className='bg-[#0B0B0B] h-full'>
       <ScrollView>
-      <TamaButton alignSelf="center"  size="$6">
-        Large
-      </TamaButton>
-
         <View className='w-full justify-center items-center'>
           <Image source={images.blueLogo} style={styles.image} className='mb-3' />
           <Text className='text-3xl text-white font-pbold'>Welcome Back</Text>

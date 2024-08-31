@@ -9,6 +9,7 @@
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./app/assets/images/icon-blue.png",
+      "width": 1242,
       "resizeMode": "contain",
       "backgroundColor":"#000000"
     },

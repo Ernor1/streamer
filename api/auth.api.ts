@@ -27,6 +27,7 @@ export async function removeAuthToken() {
 
 export const login = async (cred: Credentials) => {
     try {
+        console.log(apiUrl)
         const response = await api.post(`${apiUrl}/auth/login`, cred)
         await saveAuthToken(response.data.data.token)
         return response.data
@@ -37,6 +38,7 @@ export const login = async (cred: Credentials) => {
     }
 
 }
+
 
 export const getProfile = async () => {
     try {
